@@ -1,7 +1,7 @@
 # React Native Persian SnackBar Component
 A persian snackbar component for Android and iOS, customizable and simple.
 
-![Snackbar demo](https://pasteboard.co/GZTJYCk.png)
+![Snackbar demo](http://uupload.ir/files/enlh_screenshot_2017-12-26-00-32-52-864_com.testnavigation.png)
 
 
 See [Google Material Design](https://material.io/guidelines/components/snackbars-toasts.html) for more info on Snackbars.
@@ -9,19 +9,19 @@ See [Google Material Design](https://material.io/guidelines/components/snackbars
 ## Installation
 
 ```sh
-npm install --save react-native-snackbar-component
+npm install --save react-native-persian-snackbar-component
 ```
 
 ## Basic Usage
 
 ```javascript
-import SnackBar from 'react-native-snackbar-component'
+import SnackBar from 'react-native-persian-snackbar-component'
 ```
 
 ## Code
 
 ```js
-<SnackBar visible={true} textMessage="ÓáÇã ÏäíÇ" actionHandler={()=>{console.log("snackbar button clicked!")}} actionText="ÈÇÔå"/>
+<SnackBar visible={true} textMessage="RTL Text" actionHandler={()=>{console.log("snackbar button clicked!")}} actionText="Lets go!"/>
 ```
 ## Options
 | Prop        | Type           | Effect  | Default Value |
