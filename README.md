@@ -1,7 +1,7 @@
 # React Native Persian SnackBar Component
 A persian snackbar component for Android and iOS, customizable and simple.
 
-![Snackbar demo](https://serving.photos.photobox.com/09368632d6484a3bca0f38596cc4ad5ffe3fd50bec0671ac055cb7b96bba2b7ee2653897.jpg = 300x533)
+![Snackbar demo](https://pasteboard.co/GZTJYCk.png)
 
 
 See [Google Material Design](https://material.io/guidelines/components/snackbars-toasts.html) for more info on Snackbars.
