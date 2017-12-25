@@ -10,9 +10,7 @@ import {
 } from 'react-native';
 import { Touchable } from './src';
 import { noop } from './src/utils';
-/*
-* Values are from https://material.io/guidelines/motion/duration-easing.html#duration-easing-dynamic-durations
-*/
+
 
 const easing_values = {
   entry: Easing.bezier(0.0, 0.0, 0.2, 1),
@@ -57,12 +55,13 @@ class SnackbarComponent extends Component {
             this.setState({hideDistance: event.nativeEvent.layout.height});
           }}
         >
-          <Text style={[styles.text_msg, {color: this.props.messageColor}]}>{this.props.textMessage}</Text>
           {this.props.actionHandler && this.props.actionText &&
             <Touchable onPress={() => {this.props.actionHandler()}} >
               <Text style={[styles.action_text, {color: this.props.accentColor}]}>{this.props.actionText.toUpperCase()}</Text>
             </Touchable>
           }
+          <Text style={[styles.text_msg, {color: this.props.messageColor}]}>{this.props.textMessage}</Text>
+
         </Animated.View>
       </Animated.View>
     );
@@ -153,11 +152,13 @@ const styles = StyleSheet.create({
   },
   text_msg: {
     fontSize: 14,
-    flex: 1
+    flex: 1,
+    justifyContent : 'flex-end'
   },
   action_text: {
     fontSize: 14,
-    fontWeight: '600'
+    fontWeight: '600',
+    justifyContent : 'flex-start'
   }
 });
 

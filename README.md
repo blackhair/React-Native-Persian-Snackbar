@@ -1,8 +1,8 @@
 # React-Native-SnackBar-Component
-A snackbar component for Android and iOS, customizable and simple.
+A persian snackbar component for Android and iOS, customizable and simple.
 
 ![Snackbar demo](https://media.giphy.com/media/zChTSWog7TNmM/giphy.gif)
-![With fab](https://media.giphy.com/media/6oCCk98unakbC/giphy.gif)
+
 
 See [Google Material Design](https://material.io/guidelines/components/snackbars-toasts.html) for more info on Snackbars.
 
@@ -21,7 +21,7 @@ import SnackBar from 'react-native-snackbar-component'
 ## Code
 
 ```js
-<SnackBar visible={true} textMessage="Hello There!" actionHandler={()=>{console.log("snackbar button clicked!")}} actionText="let's go"/>
+<SnackBar visible={true} textMessage="ÓáÇã ÏäíÇ" actionHandler={()=>{console.log("snackbar button clicked!")}} actionText="ÈÇÔå"/>
 ```
 ## Options
 | Prop        | Type           | Effect  | Default Value |
